@@ -10,8 +10,8 @@ Test the demo on Google Colab:
 
 | Isaac Sim Version | Isaac Lab Version | Colab Link | Script |
 | ----------------- | ----------------- | ----------- | ------ |
-| >=5.1.0.0 | - | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaweees/isaac-sim-colab/blob/main/notebooks/isaac-sim-5.1-colab.ipynb) | [install-isaac-sim-5.1.sh](scripts/install-isaac-sim-5.1.sh) |
-| >=5.1.0.0 | >=2.3.2 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaweees/isaac-sim-colab/blob/main/notebooks/isaac-lab-2.3.2-colab.ipynb) | [install-isaac-lab-2.3.2.sh](scripts/install-isaac-lab-2.3.2.sh) |
+| 5.1.0.0 | - | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaweees/isaac-sim-colab/blob/main/notebooks/isaac-sim-5.1-colab.ipynb) | [install-isaac-sim-5.1.sh](scripts/install-isaac-sim-5.1.sh) |
+| 5.1.0.0 | 2.3.2 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaweees/isaac-sim-colab/blob/main/notebooks/isaac-lab-2.3.2-colab.ipynb) | [install-isaac-lab-2.3.2.sh](scripts/install-isaac-lab-2.3.2.sh) |
 
 ## Developer Notes
 

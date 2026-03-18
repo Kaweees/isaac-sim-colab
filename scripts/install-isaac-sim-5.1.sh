@@ -4,10 +4,10 @@
 # i.e., https://colab.research.google.com/github/j3soon/isaac-sim-colab/blob/main/notebooks/isaac-sim-5.1-colab.ipynb
 # For more information, see: https://github.com/j3soon/isaac-sim-colab.
 
-# Download and execute Python 3.10 set up script
+# Download and execute Python 3.11 set up script
 # Ref: https://github.com/j3soon/colab-python-version
-wget -O py310.sh https://raw.githubusercontent.com/j3soon/colab-python-version/main/scripts/py310.sh
-bash py310.sh
+wget -O py311.sh https://raw.githubusercontent.com/j3soon/colab-python-version/main/scripts/py311.sh
+bash py311.sh
 
 # Set up Vulkan runtime dependencies
 apt-get install -y vulkan-tools
@@ -66,7 +66,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install Isaac Sim through pip.
 # Ref: https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html
-uv pip install -qq "isaacsim[all,extscache]>=5.1.0.0" --extra-index-url https://pypi.nvidia.com
+uv pip install -qq "isaacsim[all,extscache]==5.1.0.0" --extra-index-url https://pypi.nvidia.com
 
 # Download Isaac Sim minimal example
 wget -O time_stepping.py https://raw.githubusercontent.com/j3soon/isaac-sim-colab/refs/heads/main/thirdparty/isaacsim/standalone_examples/api/isaacsim.core.api/time_stepping.py

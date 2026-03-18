@@ -10,7 +10,7 @@ which isaacsim
 # Install Isaac Lab through pip.
 # Ref: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html
 apt-get install -y cmake build-essential
-uv pip install -qq "isaaclab[all,isaacsim]>=2.3.2" --extra-index-url https://pypi.nvidia.com
+uv pip install -qq "isaaclab[all,isaacsim]==2.3.2" --extra-index-url https://pypi.nvidia.com
 
 # Set environment variables
 # Ref: https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html#running-isaac-sim
